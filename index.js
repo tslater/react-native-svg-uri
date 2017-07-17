@@ -4,7 +4,8 @@ import {View} from 'react-native';
 import xmldom from 'xmldom';
 import resolveAssetSource from 'react-native/Libraries/Image/resolveAssetSource';
 
-import Svg,{
+import {
+    Svg,
     Circle,
     Ellipse,
     G ,
@@ -19,7 +20,7 @@ import Svg,{
     Use,
     Defs,
     Stop
-} from 'react-native-svg';
+} from 'expo';
 
 import * as utils from './utils';
 
